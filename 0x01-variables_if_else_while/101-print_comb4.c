@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
- * Main - Entery point
- * Description: combnation of three number
- * Returtn: Always 0
+ *main - Entry point
+ *Descrription: combination of three number
+ *Return: Always 0
  */
+
 int main(void)
 {
 	int a, b, c;
 
 	for (a = 48; a <= 57; a++)
 	{
-	for (b = a+1; b <= 57; b++)
+	for (b = a + 1; b <= 57; b++)
 	{
-	for (c = b+1; c <= 57; c++)
+	for (c = b + 1; c <= 57; c++)
 	{
 	if ((b != a) != c)
 	{
