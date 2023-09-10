@@ -6,22 +6,26 @@
  */
 int main(void)
 {
-	int d, p;
+	int d;
+	int p;
 
-	for (d = '0'; d <= '9'; d++)
+	for (d = 48; d <= 56; d++)
 	{
-		for (p = d + 1; p <= '9'; p++)
-	{
-		if (p != d)
+		for (p = 49; p <=57; p++)
 		{
-			putchar(d);
-			putchar(p);
-			if (p != '9')
-			putchar(',');
-			putchar(' ');
+			if (p > d)
+			{
+				putchar(d);
+				putchar(p);
+				if (d != 56 || p !=57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
-	}
-	}
+
 	putchar('\n');
 	return (0);
 }
