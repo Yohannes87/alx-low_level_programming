@@ -1,9 +1,12 @@
 #include "main.h"
+
 /**
- * _puts - prints a string
- * @*str: inputs
- * Retrun: Always 0
- */
+  * _puts - Prints a string
+  * @str: The string to print
+  *
+  * Return: void
+  */
+
 void _puts(char *str)
 {
 	int i;
