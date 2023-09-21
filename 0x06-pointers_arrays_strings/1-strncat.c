@@ -4,7 +4,7 @@
  *@dest: destination file
  *@src: source file
  *@n: input number
- *Returb: return to dest
+ *Return: return to dest
  */
 
 char *_strncat(char *dest, char *src, int n)
