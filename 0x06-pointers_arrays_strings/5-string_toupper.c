@@ -2,17 +2,17 @@
 /**
  *string_toupper - chenges all lowercase letters of a string to uppercas.
  *@str: input string
- *@Return: to str
+ *Return: to str
  */
 char *string_toupper(char *str)
 {
-	int index = 0;
+	int i;
 
-	for (index =  0; str[index] != '\0'; index++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[index] >= 'a' && str[index] <= 'z')
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			str[index] = str[index] - 32;
+			str[i] = str[i] - 32;
 		}
 	}
 	return (str);
