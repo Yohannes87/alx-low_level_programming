@@ -7,7 +7,7 @@
 char *string_toupper(char *str)
 {
 	int index = 0;
-	int desp = 'a' - 'A';
+	int desp = 32;
 
 	for (index =  0; str[index] != '\0'; index++)
 	{
