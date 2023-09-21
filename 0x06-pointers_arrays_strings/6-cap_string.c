@@ -13,7 +13,7 @@ char *cap_string(char *entry)
 	{
 		if (i == 0 && entry[i] >= 'a' && entry[i] <= 'z')
 		{
-			entry[i] = entry[i] - 3;
+			entry[i] = entry[i] - 32;
 		}
 		for (j = 0; c[j] != '\0'; j++)
 		{
