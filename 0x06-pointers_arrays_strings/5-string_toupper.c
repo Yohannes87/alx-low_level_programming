@@ -4,17 +4,17 @@
  *@s: input string
  *@Return: to s
  */
-char *string_toupper(char *s)
+char *string_toupper(char *str)
 {
 	int index = 0;
 	int desp = 'a' - 'A';
 
-	for (index =  0; s[index] != '\0'; index++)
+	for (index =  0; str[index] != '\0'; index++)
 	{
-		if (s[index] >= 'a' && s[index] <= 'z')
+		if (str[index] >= 'a' && str[index] <= 'z')
 		{
-			s[index] = s[index] - desp;
+			str[index] = str[index] - desp;
 		}
 	}
-	return (s);
+	return (str);
 }
