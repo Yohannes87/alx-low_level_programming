@@ -2,7 +2,7 @@
 /**
  *is_palindrome - a string is palindrome
  *@s: input string
- *return; 1 or 0
+ *Return: 1 or 0
  */
 int is_palindrome(char *s)
 {
@@ -13,7 +13,7 @@ int is_palindrome(char *s)
 /**
  *_strlen_recursion - chek the string is simmilar
  *@s: input string
- *return: 0 or 1
+ *Return: 0 or 1
  */
 int _strlen_recursion(char *s)
 {
@@ -27,7 +27,7 @@ int _strlen_recursion(char *s)
  *@s: poiter string
  *@i: input
  *@len: out puetr
- *return: 0 or 1
+ *Return: 0 or 1
  */
 int check_pal(char *s, int i, int len)
 {
