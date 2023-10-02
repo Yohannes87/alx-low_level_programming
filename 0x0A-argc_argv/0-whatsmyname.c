@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- *main - program that print the umber argument 
- *@args: this is argument count
- *@argv: this is the argument vector
+ *main - print programe name
+ *@argc: the number of argument
+ *@argv: an array of pointer to the arguments.
  *Return: always 0
  */
-int main(int args, char *argc[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
-	printf("%d\n", args - 1);
-	(void)argv;
+	printf("%s\n", argv[0]);
+
 	return (0);
 }
