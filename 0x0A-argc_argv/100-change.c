@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *main - program that prints the minmimum number of coins 
+ *main - program that prints the minmimum number of coins
  *to make changes for an amount of money
  *@argc: number of argument
  *@argv: array of argument
- *Return: o0 or 1
+	 *Return: 0 or 1
  */
 int main(int argc, char *argv[])
 {
