@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
-*main - adds positive numbers
-*@argc: number of arguments
-*@argv: array of arguments
+*free_grid - adds positive numbers
+*@grid: number of arguments
+*@height: array of arguments
 *Return: 0 on success, 1 on failure
 */
 
