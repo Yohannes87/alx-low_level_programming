@@ -1,6 +1,12 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
+/**
+ *print_numbers -  function that returns the sum
+ *@separator: to separeter
+ *@n: number of intger
+ *Return: nothing
+ */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
